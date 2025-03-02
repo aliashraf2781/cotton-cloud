@@ -1,5 +1,5 @@
 import React from "react";
-import { BsChevronDown } from "react-icons/bs";
+// import { BsChevronDown } from "react-icons/bs";
 //applay css  text-primary-900 flex items-center to <a> tag
 function LowerSection() {
   return (
@@ -11,7 +11,7 @@ function LowerSection() {
         <a href="" className=".navbar-ul flex items-center ">
           الفئات
           <div className="dropdown w-5 h-5 ms-[2px]">
-            <BsChevronDown className="w-full" />
+            {/* <BsChevronDown className="w-full" /> */}
           </div>
         </a>
         <a href="" className=".navbar-ul">
